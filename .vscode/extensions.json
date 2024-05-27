@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "rvest.vs-code-prettier-eslint",
+    "shardulm94.trailing-spaces"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+
+  "files.trimFinalNewlines": true,
+
+  "files.exclude": {
+    "**/.next": true,
+    "**/bin": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/obj": true,
+    "**/sysroot": true,
+    "**/target": true,
+    "**/build": true,
+    "**/.turbo": true
+  },
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env.dev": ".env.prod, .env.test",
+    ".env.prod": ".env.test"
+  },
+
+  "trailing-spaces.trimOnSave": true,
+
+  "tailwindCSS.experimental.classRegex": [
+    ["Variants \\=([^;]*);", "'([^']*)'"],
+    ["Variants \\=([^;]*);", "\"([^\"]*)\""],
+    ["Variants \\=([^;]*);", "\\`([^\\`]*)\\`"]
+  ],
+
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  "[css]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.tabSize": 2
+  },
+
+  "html.format.enable": true,
+}
